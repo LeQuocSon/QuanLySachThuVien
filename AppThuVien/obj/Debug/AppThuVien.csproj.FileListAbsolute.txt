@@ -1,0 +1,15 @@
+F:\AppThuVien\AppThuVien\bin\Debug\AppThuVien.exe.config
+F:\AppThuVien\AppThuVien\bin\Debug\AppThuVien.exe
+F:\AppThuVien\AppThuVien\bin\Debug\AppThuVien.pdb
+F:\AppThuVien\AppThuVien\bin\Debug\EntityFramework.dll
+F:\AppThuVien\AppThuVien\bin\Debug\EntityFramework.SqlServer.dll
+F:\AppThuVien\AppThuVien\bin\Debug\EntityFramework.xml
+F:\AppThuVien\AppThuVien\bin\Debug\EntityFramework.SqlServer.xml
+F:\AppThuVien\AppThuVien\obj\Debug\AppThuVien.csprojAssemblyReference.cache
+F:\AppThuVien\AppThuVien\obj\Debug\AppThuVien.Form1.resources
+F:\AppThuVien\AppThuVien\obj\Debug\AppThuVien.Properties.Resources.resources
+F:\AppThuVien\AppThuVien\obj\Debug\AppThuVien.csproj.GenerateResource.cache
+F:\AppThuVien\AppThuVien\obj\Debug\AppThuVien.csproj.CoreCompileInputs.cache
+F:\AppThuVien\AppThuVien\obj\Debug\AppThuVien.csproj.CopyComplete
+F:\AppThuVien\AppThuVien\obj\Debug\AppThuVien.exe
+F:\AppThuVien\AppThuVien\obj\Debug\AppThuVien.pdb
