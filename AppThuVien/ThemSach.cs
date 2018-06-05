@@ -10,23 +10,25 @@ using System.Windows.Forms;
 
 namespace AppThuVien
 {
-    public partial class ThemSV : Form
+    public partial class ThemSach : Form
     {
         QuanLyThuVienEntities db = new QuanLyThuVienEntities();
-        public ThemSV()
+        public ThemSach()
         {
             InitializeComponent();
         }
 
         private void btnSave_Click(object sender, EventArgs e)
         {
-            var rs = new SinhVien
+            var rs = new MuonSach
             {
-                Hoten = txtName.Text,
-                MSSV = txtMSSV.Text,
-                Khoa = cbbKhoa.Text,
+                MaSach = txtMa.Text,
+                TenSach = txtTen.Text,
+                SoLuong = int.Parse(txtSL.Text),
+                LoaiSach = cbbLoai.Text,
+                TacGia = txtTG.Text
             };
-            db.SinhViens.Add(rs);
+            db.MuonSaches.Add(rs);
             db.SaveChanges();
             this.Close();
         }
@@ -35,16 +37,16 @@ namespace AppThuVien
         {
             this.Close();
         }
-        private void ThemSV_Load(object sender, EventArgs e)
+        private void ThemSach_Load(object sender, EventArgs e)
         {
-            var lst = db.Khoas.ToList();
+            var lst = db.LoaiSaches.ToList();
             foreach (var item in lst)
             {
-                cbbKhoa.Items.Add(new { Text = item.TenKhoa, Value = "1" });
+                cbbLoai.Items.Add(new { Text = item.LoaiSach1, Value = "1" });
             }
 
-            cbbKhoa.DisplayMember = "Text";
-            cbbKhoa.ValueMember = "Value";
+            cbbLoai.DisplayMember = "Text";
+            cbbLoai.ValueMember = "Value";
         }
     }
 }

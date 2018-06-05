@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.Entity;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -16,6 +17,7 @@ namespace AppThuVien
         private int ID;
         public SuaSV(int id)
         {
+            this.ID = id;
             InitializeComponent();
         }
 

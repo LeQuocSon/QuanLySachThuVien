@@ -89,6 +89,36 @@
     <Compile Include="SinhVien.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
+    <Compile Include="SuaSach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SuaSach.Designer.cs">
+      <DependentUpon>SuaSach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SuaSV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SuaSV.Designer.cs">
+      <DependentUpon>SuaSV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ThemSach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThemSach.Designer.cs">
+      <DependentUpon>ThemSach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ThemSV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThemSV.Designer.cs">
+      <DependentUpon>ThemSV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ThuVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThuVien.Designer.cs">
+      <DependentUpon>ThuVien.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -101,6 +131,21 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="SuaSach.resx">
+      <DependentUpon>SuaSach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SuaSV.resx">
+      <DependentUpon>SuaSV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThemSach.resx">
+      <DependentUpon>ThemSach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThemSV.resx">
+      <DependentUpon>ThemSV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThuVien.resx">
+      <DependentUpon>ThuVien.cs</DependentUpon>
+    </EmbeddedResource>
     <EntityDeploy Include="Model1.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>Model1.Designer.cs</LastGenOutput>

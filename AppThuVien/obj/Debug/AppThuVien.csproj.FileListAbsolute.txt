@@ -13,3 +13,8 @@ F:\AppThuVien\AppThuVien\obj\Debug\AppThuVien.csproj.CoreCompileInputs.cache
 F:\AppThuVien\AppThuVien\obj\Debug\AppThuVien.csproj.CopyComplete
 F:\AppThuVien\AppThuVien\obj\Debug\AppThuVien.exe
 F:\AppThuVien\AppThuVien\obj\Debug\AppThuVien.pdb
+F:\AppThuVien\AppThuVien\obj\Debug\AppThuVien.SuaSach.resources
+F:\AppThuVien\AppThuVien\obj\Debug\AppThuVien.SuaSV.resources
+F:\AppThuVien\AppThuVien\obj\Debug\AppThuVien.ThemSach.resources
+F:\AppThuVien\AppThuVien\obj\Debug\AppThuVien.ThemSV.resources
+F:\AppThuVien\AppThuVien\obj\Debug\AppThuVien.ThuVien.resources
