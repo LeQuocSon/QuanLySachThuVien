@@ -12,8 +12,8 @@
     <EntitySetMapping Name="LoaiSaches">
       <EntityTypeMapping TypeName="QuanLyThuVienModel.LoaiSach">
         <MappingFragment StoreEntitySet="LoaiSach">
+          <ScalarProperty Name="TenSach" ColumnName="TenSach" />
           <ScalarProperty Name="ID" ColumnName="ID" />
-          <ScalarProperty Name="LoaiSach1" ColumnName="LoaiSach" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

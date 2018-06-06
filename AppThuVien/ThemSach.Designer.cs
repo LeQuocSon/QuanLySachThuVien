@@ -174,6 +174,7 @@
             this.Controls.Add(this.txtMa);
             this.Name = "ThemSach";
             this.Text = "ThemSach";
+            this.Load += new System.EventHandler(this.ThemSach_Load_1);
             this.ResumeLayout(false);
             this.PerformLayout();
 

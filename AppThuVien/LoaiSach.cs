@@ -15,6 +15,6 @@ namespace AppThuVien
     public partial class LoaiSach
     {
         public int ID { get; set; }
-        public string LoaiSach1 { get; set; }
+        public string TenSach { get; set; }
     }
 }

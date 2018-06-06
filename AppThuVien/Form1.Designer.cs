@@ -93,6 +93,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::AppThuVien.Properties.Resources.background;
             this.ClientSize = new System.Drawing.Size(668, 450);
             this.Controls.Add(this.btnmuon);
             this.Controls.Add(this.btnThoat);

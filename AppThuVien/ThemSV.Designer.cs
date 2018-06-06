@@ -134,6 +134,7 @@
             this.Controls.Add(this.txtName);
             this.Name = "ThemSV";
             this.Text = "ThemSV";
+            this.Load += new System.EventHandler(this.ThemSV_Load_1);
             this.ResumeLayout(false);
             this.PerformLayout();
 

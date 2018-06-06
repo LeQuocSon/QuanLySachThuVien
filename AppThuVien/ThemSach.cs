@@ -37,12 +37,13 @@ namespace AppThuVien
         {
             this.Close();
         }
-        private void ThemSach_Load(object sender, EventArgs e)
+
+        private void ThemSach_Load_1(object sender, EventArgs e)
         {
             var lst = db.LoaiSaches.ToList();
             foreach (var item in lst)
             {
-                cbbLoai.Items.Add(new { Text = item.LoaiSach1, Value = "1" });
+                cbbLoai.Items.Add(new { Text = item.TenSach, Value = "1" });
             }
 
             cbbLoai.DisplayMember = "Text";

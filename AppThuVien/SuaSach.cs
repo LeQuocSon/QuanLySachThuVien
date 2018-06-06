@@ -49,7 +49,7 @@ namespace AppThuVien
             var lst = db.LoaiSaches.ToList();
             foreach (var item in lst)
             {
-                cbbLoai.Items.Add(new { Text = item.LoaiSach1, Value = "1" });
+                cbbLoai.Items.Add(new { Text = item.TenSach, Value = "1" });
             }
 
             cbbLoai.DisplayMember = "Text";

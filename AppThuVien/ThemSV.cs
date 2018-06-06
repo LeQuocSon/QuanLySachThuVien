@@ -35,7 +35,7 @@ namespace AppThuVien
         {
             this.Close();
         }
-        private void ThemSV_Load(object sender, EventArgs e)
+        private void ThemSV_Load_1(object sender, EventArgs e)
         {
             var lst = db.Khoas.ToList();
             foreach (var item in lst)
